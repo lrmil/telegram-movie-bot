@@ -9,7 +9,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 SHORTENER_API_KEY = os.getenv('SHORTENER_API_KEY')
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = os.getenv('7231024537:AAHLtB0z7Hre-GMkij52nuMAS--Uem3znKo')
 
 def shorten_url(url):
     api_url = f'https://api.shorte.st/v1/data/url'
@@ -63,7 +63,7 @@ def error(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     # Create the Updater and pass it your bot's token.
-    updater = Updater(BOT_TOKEN)
+    updater = Updater(7231024537:AAHLtB0z7Hre-GMkij52nuMAS--Uem3znKo)
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
